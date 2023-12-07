@@ -1,10 +1,15 @@
 body {
-  
+  margin: 0%;
+  scroll-behavior: smooth;
+}
+
+nav {
+margin-bottom: 5%;
 
 }
 
-.nav {
-
+header {
+margin-bottom: 5%;
 }
 
 :root {
@@ -13,5 +18,4 @@ body {
 --the-secondary-color: #519879; 
 --the-background-color: #272932; 
 --the-accent-color: #FB8B24;
-
 }
