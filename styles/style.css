@@ -1,6 +1,8 @@
 body {
   margin: 0%;
   scroll-behavior: smooth;
+  background-color: var(--the-background-color);
+  color: var(--textcolor);
 }
 
 nav {
