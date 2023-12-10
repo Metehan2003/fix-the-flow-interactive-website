@@ -5,16 +5,23 @@
   --the-background-color: #272932; 
   --the-accent-color: #FB8B24;
   }
-
+  
 body {
   margin: 0%;
   scroll-behavior: smooth;
   background-color: var(--the-background-color);
   color: var(--textcolor);
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "nav header header"
+  "nav section section";
+  overflow: hidden;
 }
 
 nav {
-height: 100vh;
+height: 99vh;
 margin-bottom: 5%;
 margin-left: 0%;
 position: absolute;
@@ -22,35 +29,64 @@ top: 0%;
 border: 5px solid var(--the-secondary-color);
 border-radius: 10px;
 background-color: var(--the-secondary-color);
+display: grid;
+grid-area: nav;
+transition: 5s;
+opacity: 1;
+}
+
+nav.navi {
+opacity: 1;
+transition: 1s;
+height: 99vh;
+margin-bottom: 5%;
+margin-left: 0%;
+position: absolute;
+top: 0%;
+border: 5px solid var(--the-secondary-color);
+border-radius: 10px;
+background-color: var(--the-secondary-color);
+display: grid;
+grid-area: nav;
+transition: 1s;
+opacity: 0;
+
+
 }
 
 header {
 margin-bottom: 5%;
 position: absolute;
 right: 50%;
+display: grid;
+grid-area: header;
 }
 
 .sectionone {
   position: absolute;
   right: 50%;
   top: 40%;
+  display: grid;
+  grid-area: section;
 }
 
 .sectiontwo {
 position: absolute;
 right: 60%;
 top: 40%;
+display: grid;
+grid-area: section;
 }
 
-.menu,.menuone {
+.menu,button {
   text-align: center;
   margin-right: 2.5em;
   margin-top: 2em;
-  margin-bottom: 6em;
+  margin-bottom: 5em;
   list-style-type: none;
 }
 
-.menuone {
+button {
   border:3px solid black;
   background-color: black;
   border-radius: 10%;
@@ -58,4 +94,5 @@ top: 40%;
   color: var(--textcolor);
   margin-left: 2em;
   margin-bottom: 19%;
+  cursor: pointer;
   }
