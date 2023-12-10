@@ -14,11 +14,11 @@ body {
 }
 
 nav {
-height: 38em;
+height: 100vh;
 margin-bottom: 5%;
 margin-left: 0%;
 position: absolute;
-top: 10%;
+top: 0%;
 border: 5px solid var(--the-secondary-color);
 border-radius: 10px;
 background-color: var(--the-secondary-color);
