@@ -12,7 +12,7 @@ body {
   background-color: var(--the-background-color);
   color: var(--textcolor);
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: 
   "nav header header"
