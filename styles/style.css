@@ -38,6 +38,7 @@ grid-area: nav;
  height: 17vh;
  border: transparent;
  
+ 
 }
 
 header {
@@ -89,4 +90,11 @@ button {
     font-weight: bolder;
 
 
+  }
+
+  .menu:hover {
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    border-bottom: 5px solid;
   }
