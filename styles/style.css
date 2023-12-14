@@ -31,28 +31,19 @@ border-radius: 10px;
 background-color: var(--the-secondary-color);
 display: grid;
 grid-area: nav;
-transition: 5s;
-opacity: 1;
+transition: 1s;
 }
 
-nav.navi {
-opacity: 1;
-transition: 1s;
-height: 99vh;
-margin-bottom: 5%;
-margin-left: 0%;
-position: absolute;
-top: 0%;
-border: 5px solid var(--the-secondary-color);
-border-radius: 10px;
-background-color: var(--the-secondary-color);
-display: grid;
-grid-area: nav;
-transition: 1s;
-opacity: 0;
-
-
+.navi {
+ color: transparent;
+ 
+ 
+ 
 }
+
+
+
+
 
 header {
 margin-bottom: 5%;

@@ -1,6 +1,4 @@
-var button = document.querySelector("button");
-var element = document.querySelector("nav");
-
-button.addEventListener("click", function() {
-  element.classList.toggle("navi");
-});
+let nav = document.querySelector("nav")
+nav.addEventListener("click", function () {
+  nav.classList.toggle("navi")
+})
