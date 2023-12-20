@@ -44,11 +44,22 @@ grid-area: nav;
 
 header {
 margin-bottom: 5%;
-background-color: var(--the-accent-color);
+background-color: var(--the-primary-color);
+width: 87vw;
+border-radius: 5%;
 display: grid;
 grid-area: header;
 }
 
+h1{
+  text-align: center;
+  font-size: larger;
+}
+
+h2 {
+  text-align: center;
+  font-size: larger;
+}
 .sectionone {
   position: absolute;
   right: 50%;
@@ -59,8 +70,8 @@ grid-area: header;
 
 .sectiontwo {
 position: absolute;
-right: 60%;
 top: 40%;
+margin-left: 75%;
 display: grid;
 grid-area: section;
 }
@@ -99,4 +110,10 @@ button {
     border-bottom: 5px solid;
   }
 
- 
+ .meter{
+  border-radius: 5%;
+ }
+
+ .sectionone, .sectiontwo {
+  top: 10%;
+ }
