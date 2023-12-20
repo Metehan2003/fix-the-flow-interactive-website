@@ -16,6 +16,7 @@ body {
   grid-template-rows: auto;
   grid-template-areas: 
   "nav header header"
+  "nav section section"
   "nav section section";
   overflow: hidden;
 }
@@ -31,6 +32,7 @@ border-radius: 10px;
 background-color: var(--the-secondary-color);
 transition:200ms;
 grid-area: nav;
+
 }
 
 .navi {
@@ -38,13 +40,11 @@ grid-area: nav;
  height: 17vh;
  border: transparent;
  
- 
 }
 
 header {
 margin-bottom: 5%;
-position: absolute;
-right: 50%;
+background-color: var(--the-accent-color);
 display: grid;
 grid-area: header;
 }
@@ -98,3 +98,5 @@ button {
     font-weight: bolder;
     border-bottom: 5px solid;
   }
+
+ 
